@@ -7,6 +7,7 @@ const FormInput = (props) => {
     return(
         <div className="form_input">
             <TextField sx={{marginTop:1}}
+                data-testid="textfield-test"
                 name = {name}
                 label={label}
                 variant="outlined"
